@@ -1,0 +1,447 @@
+
+
+ <!-- <div class="container-fluid">-->
+
+
+
+   <!-- <div class="card-group">-->
+<div class="row">
+    <div class="col-sm-2">
+        <header><h1>TODO</h1></header>
+        </div>
+        <div class="col-sm-2">
+            <header><h1>In Progress</h1></header>
+            </div>
+            <div class="col-sm-2">
+                <header><h1>Completed</h1></header>
+                </div>
+                <div class="col-sm-2">
+                    <header><h1>Ready For QA</h1></header>
+                    </div>
+                    <div class="col-sm-2">
+                        <header><h1>System Testing</h1></header>
+                        </div>
+                        <div class="col-sm-2">
+                            <header><h1>System Testing finished</h1>
+                            </header>
+                            </div>
+
+      <!--  <div class="card"> -->
+          <div class="col-sm-2">
+
+    <div class="card" style="width: 22rem; margin-left: 10px;">
+        <div class="card-header bg-transparent border-success">Header</div>
+
+        <div class="card" *ngFor="let item of arr;let i=index">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       <!-- <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>-->
+        <div class="datehead">
+            <label class="date1">14-08-2019</label>
+          </div>
+          <div class="prio">
+            <label class="priority">HIGH </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary"  (click)="openEdit(content1,i)">Edit</button>
+      </div>
+    </div>
+          </div>
+
+<!---->
+
+<!--<div class="col-sm-2">
+    <div class="card" style="width: 22rem; margin-left: 10px;">
+        <div class="card-header bg-transparent border-success">Header</div>
+        <div class="card-body">
+         <h5 class="card-title">Card title</h5>
+         <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <a href="#" class="card-link">Card link</a>
+         <a href="#" class="card-link">Another link</a>-->
+        <!-- <div class="datehead">
+            <label class="date1">14-08-2019</label>
+          </div>
+          <div class="prio">
+            <label class="priority">HIGH </label>
+          </div>
+
+            <button class="btn btn-primary edit12" > Edit</button>
+         </div>
+       </div>
+  </div>
+
+          <div class="col-sm-2">
+
+              <div class="card" style="width: 22rem; margin-left: 10px;">
+                  <div class="card-header bg-transparent border-success">Header</div>
+
+
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>-->
+                 <!-- <div class="datehead">
+                      <label class="date1">14-08-2019</label>
+                    </div>
+                    <div class="prio">
+                      <label class="priority">HIGH </label>
+                    </div>
+
+                      <button class="btn btn-primary edit12" > Edit</button>
+                </div>
+              </div>
+            </div>
+
+           <div class="col-sm-2">
+
+                <div class="card" style="width: 22rem; margin-left: 10px;">
+                    <div class="card-header bg-transparent border-success">Header</div>
+
+
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>-->
+                   <!-- <div class="datehead">
+                        <label class="date1">14-08-2019</label>
+                      </div>
+                      <div class="prio">
+                        <label class="priority">HIGH </label>
+                      </div>
+
+                        <button class="btn btn-primary edit12" > Edit</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-2">
+
+                  <div class="card" style="width: 22rem; margin-left: 10px;">
+                      <div class="card-header bg-transparent border-success">Header</div>
+
+
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>-->
+                    <!--  <div class="datehead">
+                          <label class="date1">14-08-2019</label>
+                        </div>
+                        <div class="prio">
+                          <label class="priority">HIGH </label>
+                        </div>
+
+                          <button class="btn btn-primary edit12" > Edit</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-2">
+
+                    <div class="card" style="width: 22rem; margin-left: 10px;">
+                        <div class="card-header bg-transparent border-success">Header</div>
+
+
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>-->
+                       <!-- <div class="datehead">
+                            <label class="date1">14-08-2019</label>
+                          </div>
+                          <div class="prio">
+                            <label class="priority">HIGH </label>
+                          </div>
+
+                            <button class="btn btn-primary edit12" > Edit</button>
+                      </div>
+                    </div>
+                  </div>-->
+                  <!---->
+
+
+
+<!---->
+
+<!---->
+
+
+<!---->
+
+
+<!--commented cards-->
+<!--<div class="col-sm-2">
+
+    <div class="card" style="width: 22rem; margin-left: 10px; margin-top:10px;">
+        <div class="card-header bg-transparent border-success">Header</div>
+
+
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>-->
+      <!--  <div class="datehead">
+            <label class="date1">14-08-2019</label>
+          </div>
+          <div class="prio">
+            <label class="priority">HIGH </label>
+          </div>
+
+            <button class="btn btn-primary edit12" > Edit</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-2">
+
+      <div class="card" style="width: 22rem; margin-left: 10px; margin-top: 10px;">
+          <div class="card-header bg-transparent border-success">Header</div>
+
+
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>-->
+         <!-- <div class="datehead">
+              <label class="date1">14-08-2019</label>
+            </div>
+            <div class="prio">
+              <label class="priority">HIGH </label>
+            </div>
+
+              <button class="btn btn-primary edit12" > Edit</button>
+
+        </div>
+      </div>
+    </div>
+
+
+
+-->
+
+<!--<div class="col-sm-2">
+
+    <div class="card" style="width: 22rem; margin-left: 10px; margin-top:10px;">
+        <div class="card-header bg-transparent border-success">Header</div>
+
+
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>-->
+       <!-- <div class="datehead">
+            <label class="date1">14-08-2019</label>
+          </div>
+          <div class="prio">
+            <label class="priority">HIGH </label>
+          </div>
+
+            <button class="btn btn-primary edit12" > Edit</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-2">
+
+      <div class="card" style="width: 22rem; margin-left: 10px; margin-top: 10px;">
+          <div class="card-header bg-transparent border-success">Header</div>
+
+
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>-->
+         <!-- <div class="datehead">
+              <label class="date1">14-08-2019</label>
+            </div>
+            <div class="prio">
+              <label class="priority">HIGH </label>
+            </div>
+
+              <button class="btn btn-primary edit12" > Edit</button>
+        </div>
+      </div>
+    </div>
+
+-->
+<!--<div class="col-sm-2">
+
+    <div class="card" style="width: 22rem; margin-left: 10px; margin-top:10px;">
+        <div class="card-header bg-transparent border-success">Header</div>
+
+
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Card link</a>-->
+        <!--<a href="#" class="card-link">Another link</a>-->
+       <!-- <div class="datehead">
+            <label class="date1">14-08-2019</label>
+          </div>
+          <div class="prio">
+            <label class="priority">HIGH </label>
+          </div>
+
+            <button class="btn btn-primary edit12" > Edit</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-2">
+
+      <div class="card" style="width: 22rem; margin-left: 10px; margin-top: 10px;">
+          <div class="card-header bg-transparent border-success">Header</div>
+
+
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card-link">Card link</a>-->
+        <!--  <a href="#" class="card-link">Another link</a>-->
+<!--label date-->
+        <!--<div class="datehead">
+            <label class="date1">14-08-2019</label>
+          </div>
+          <div class="prio">
+            <label class="priority">HIGH </label>
+          </div>
+
+            <button class="btn btn-primary edit12" > Edit</button>
+
+            -->
+      <!--  </div>
+      </div>
+    </div>-->
+
+
+<!---->
+
+
+
+ </div>
+<!---->
+
+
+<!-- edit page -->
+
+<ng-template #content1 let-modal>
+    <h1 class="center">Edit To Do</h1>
+    <form (ngSubmit)="UpdatedItem(f)" #f="ngForm" >
+    <div class="container">
+
+      <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-8">
+    <label>Task id</label>
+    <input name="task_id" [(ngModel)]="taskid" #Task_id="ngModel" type="text" class="form-control" placeholder="enter name of organisation">
+    </div>
+
+    <div class="col-xs-6 col-md-4">
+    <label>Title</label>
+    <input name="title" [(ngModel)]="title" #Title="ngModel" type="text" class="form-control" placeholder="enter description of organisation">
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="col-xs-6 col-sm-4">
+    <label>Due Date</label>
+    <input name="due_date" [(ngModel)]="duedate" #Due_date="ngModel" type="text" class="form-control" placeholder="enter address of organisation">
+    </div>
+
+    <div class="col-xs-6 col-sm-4">
+    <label> Desc</label>
+    <input name="desc" [(ngModel)]="desc" #Desc="ngModel" type="text" class="form-control" placeholder="enter address of organisation">
+    </div>
+    <!-- Optional: clear the XS cols if their content doesn't match in height -->
+    <!-- <div class="clearfix visible-xs-block"></div>
+    <div class="col-xs-6 col-sm-4">
+    <label>Priority</label>
+    <input name="priority" [(ngModel)]="priority" type="text" class="form-control" placeholder="enter priority">
+
+    </div>
+    </div> -->
+
+    <div class="col-xs-6 col-sm-4">
+      <div>
+         <label>Priority</label></div>
+      <select [(ngModel)]="priority">
+      <option value="Low">Low</option>
+      <option value="Medium">Medium</option>
+      <option value="High">High</option>
+      </select>
+      </div>
+      </div>
+      <br/>
+
+      <div class="row">
+    <div class="col-xs-6 col-sm-4">
+    <label>Assigned state</label>
+    <input name="assignto" [(ngModel)]="assignto" #Assigned_to="ngModel" type="text" class="form-control" placeholder="enter state of organisation">
+    </div>
+
+    <div class="col-xs-6 col-sm-4">
+    <label>Assigned Date</label>
+    <input name="assigned_date" [(ngModel)]="assigndate" #Assigned_date="ngModel" type="text" class="form-control" placeholder="enter zip code of organisation">
+    </div>
+    <!-- Optional: clear the XS cols if their content doesn't match in height -->
+
+    <div class="clearfix visible-xs-block"></div>
+    <div class="col-xs-6 col-sm-4">
+    <label>Comments</label>
+    <input name="comments" [(ngModel)]="comment" #Comments="ngModel" type="text" class="form-control" placeholder="enter country of organisation">
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="col-xs-6 col-sm-4">
+    <label>Status</label>
+    <!-- <input name="status" [(ngModel)]="status" #Status="ngModel" type="text" class="form-control" placeholder="enter website of organisation"> -->
+    <select  [(ngModel)]="status">
+    <option value="To Do">To Do</option>
+    <option value="In progress">In progress</option>
+    <option value="development">Development</option>
+    <option value="Qa">Qa Progress</option>
+    </select>
+    </div>
+    </div>
+    <br/>
+
+    <div>
+    <button type="submit" class="btn btn-primary" >Save</button>
+    <button type="button" class="btn btn-secondary" aria-label="Close" (click)="modal.dismiss('Cross click')">Cancel</button>
+    </div>
+    <br/>
+
+    </div>
+    </form>
+    </ng-template>
+
+
+
+
+
+
+
+
+
+
+
+

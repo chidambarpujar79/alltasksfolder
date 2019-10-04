@@ -1,0 +1,28 @@
+label.date1 {
+  background-color: blue;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 17px;
+  margin-left: -11px;
+
+}
+label.priority {
+  font-weight: 700;
+  font-size: larger;
+  padding: 4px 10px;
+  background-color: red;
+  border-radius: 14px;
+  color: white;
+  margin-top: 10px;
+}
+.prio {
+  float: right;
+  margin-top: -46px;
+  margin-right: 80px;
+}
+button.btn.btn-primary.edit12 {
+  float: right;
+  margin-top: -40px;
+  padding: 7px 17px;
+  font-weight: 700;
+}
